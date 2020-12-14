@@ -9,6 +9,7 @@ import { HomeComponent } from './components/home/home.component';
 import { AboutComponent } from './components/about/about.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
 import { ProgresoComponent } from './components/progreso/progreso.component';
+import { IncrementadorComponent } from './components/incrementador/incrementador.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { ProgresoComponent } from './components/progreso/progreso.component';
     HomeComponent,
     AboutComponent,
     NavbarComponent,
-    ProgresoComponent
+    ProgresoComponent,
+    IncrementadorComponent
   ],
   imports: [
     BrowserModule,
